@@ -13,7 +13,7 @@
   </head>
   
   <style>
-    .header-img {
+    .icon-img {
       max-width: 100%;
       height: auto;
     }
@@ -21,6 +21,10 @@
     .title {
       font-family: Oswald;
       text-transform: uppercase;
+    }
+
+    .container {
+      padding:1.1em;
     }
   </style>
   
@@ -44,28 +48,27 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <img src="http://res.cloudinary.com/dzylsiia4/image/upload/v1494094418/Fish2_lg_ltfhsy.jpg" class="img-fluid header-img" alt="Fish collection banner image">  
+      
+    <div class="container">
+      <div class="row text-center">
+        <h1>Find a fish by:</h1>
       </div>
-    </div>
-  
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-3">
-          Fishes
-          </div>
-          <div class="col-3">
-          Families
-          </div>
-          <div class="col-3">
-          Regions
-          </div>
-          <div class="col-3">
-          Resources
-          </div>
+      <div class="row text-center">
+        <div class="col-4">
+          <img src="http://res.cloudinary.com/dzylsiia4/image/upload/v1494139722/Alphabetical_fwwhq9.png" class="img-fluid icon-img" alt="alphabetical icon">
+          <h2>Alphabetically</h2>
+        </div>
+        <div class="col-4">
+          <img src="http://res.cloudinary.com/dzylsiia4/image/upload/v1494139722/Location_mxu8v1.png" class="img-fluid header-img" alt="alphabetical icon">
+          <h2>Regionally</h2>
+        </div>
+        <div class="col-4">
+          <img src="http://res.cloudinary.com/dzylsiia4/image/upload/v1494139722/Pictures_aybao8.png" class="img-fluid header-img" alt="alphabetical icon">
+          <h2>Image</h2>
         </div>
       </div>
+    </div>
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
